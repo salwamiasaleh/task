@@ -1,0 +1,18 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1144" >
+	<title>UI Test-xd</title>
+	<defs>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="m0 0h1920v1144h-1920z"/>
+		</clipPath>
+		<linearGradient id="g1" x1="648" y1="7" x2="-45.4" y2="777.1" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#66cea9"/>
+			<stop offset="1" stop-color="#4b83fc"/>
+		</linearGradient>
+	</defs>
+	<style>
+		.s0 { opacity: .3;fill: url(#g1) } 
+	</style>
+	<g id="Web 1920 – 1" clip-path="url(#cp1)">
+		<path id="Path 1" class="s0" d="m648 7c180.6 162.6 195.2 440.8 32.6 621.4-162.6 180.6-66.3-76.9-621.4 32.6-555.1 109.5-195.2-440.8-32.6-621.4 162.6-180.6 440.8-195.2 621.4-32.6z"/>
+	</g>
+</svg>

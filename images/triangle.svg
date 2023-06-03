@@ -1,0 +1,14 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1144">
+	<title>UI Test-xd</title>
+	<defs>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="m0 0h1920v1144h-1920z"/>
+		</clipPath>
+	</defs>
+	<style>
+		.s0 { opacity: .3;fill: #4b83fc } 
+	</style>
+	<g id="Web 1920 – 1" clip-path="url(#cp1)">
+		<path id="Polygon 2" class="s0" d="m189.6 703.1l-26 23.4-6.9-35.3z"/>
+	</g>
+</svg>

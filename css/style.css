@@ -1,0 +1,204 @@
+* {
+  padding: 0;
+  margin: 0;
+
+  box-sizing: border-box;
+}
+.nav-link-mod {
+  color: white;
+}
+.firstsection {
+  background-image: url("../images/imgs/intro-bg.jpg");
+  height: 100vh;
+
+  position: relative;
+  background-size: cover;
+}
+
+.firstsection::before {
+  content: " ";
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.content h1 {
+  position: relative;
+  z-index: 2498729;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  color: white;
+  border: black;
+}
+.content h1::after {
+  content: "\a";
+  white-space: pre;
+  animation: change 5s infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes change {
+    0%{
+        content: "W|";
+    }
+    5%{
+        content: "WE|";
+    }
+    10%{
+        content: "WEB|";
+    }
+    12%{
+        content: "WEB |";
+    }
+    15%{
+        content: "WEB D|";
+    }
+    20%{
+        content: "WEB DE|";
+    }
+    25%{
+        content: "WEB DEV|";
+    }
+    30%{
+        content: "WEB DEVE|";
+    }
+    35%{
+        content: "WEB DEVEL|";
+    }
+    40%{
+        content: "WEB DEVELO|";
+    }
+    45%{
+        content: "WEB DEVELOP|";
+    }
+    50%{
+        content: "WEB DEVELOPE|";
+    }
+    55%{
+        content: "WEB DEVELOPER|";
+    }
+}  
+.custwidth {
+  width: 90%;
+}
+.imgwidth {
+  width: 10%;
+}
+.beige {
+  background-color: rgb(163, 163, 163);
+}
+.color {
+  background-color: rgb(184, 170, 192);
+}
+i:hover {
+  background-color: lightblue;
+}
+.fourthsection {
+  background-image: url("../images/imgs/post-3.jpg");
+  height: 50vh;
+  position: relative;
+  background-size: contain;
+  color: black;
+  width: 100%;
+}
+.fourthsection::before {
+  content: " ";
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  background-color: #0078ff;
+  opacity: 0.7;
+}
+/* .one::before{
+
+    content: "\a";
+    white-space: pre;
+    font-size: 4rem;
+    opacity: 0.5;
+    font: 800 40px system-ui;
+    animation: counter 5s linear infinite alternate;
+    counter-reset: count 0;
+}
+@keyframes counter {
+    0% {
+      content: "1";
+    }
+    10% {
+      content: "2";
+    }
+    20% {
+      content: "3";
+    }
+    30% {
+      content: "4";
+    }
+    40% {
+      content: "5";
+    }
+    50% {
+      content: "6";
+    }
+    60% {
+      content: "7";
+    }
+    70% {
+      content: "8";
+    }
+    80% {
+      content: "9";
+    }
+    90% {
+      content: "10";
+    }
+    100% {
+      content: "10";
+    }
+  } */
+
+.up {
+  position: relative;
+  z-index: 10;
+  color: white;
+  border: black;
+}
+.fifthsection img:hover{
+    transition: transform .2s; /* Animation */
+
+    transform: scale(1.1);
+}
+
+
+
+.sixthsection{
+background-image: url(../images/imgs/overlay-bg.jpg);
+
+height: 65vh;
+position: relative;
+background-size: contain;
+color: black;
+width: 100%;
+}
+.sixthsection::before {
+content: " ";
+position: absolute;
+top: 0px;
+bottom: 0px;
+right: 0px;
+left: 0px;
+background-color: #0078ff;
+opacity: 0.7;
+}
+.sixthsection ol{
+    position:absolute;
+    z-index:938593;
+}
+.card-footer img{
+    width:5%;
+}
